@@ -15,14 +15,15 @@ namespace CaptchaGame
         public override IEnumerator LevelRoutine()
         {
             appear.Play();
-
-            while (!skipButton.isReleased && !ConditionMet)
+            bool exit = false;
+            while (!exit)
             {
                 yield return new WaitUntil(() => submitButton.isReleased || skipButton.isReleased);
                 if (skipButton.isReleased)
                 {
                     skip.Play();
                     yield return new WaitForSeconds((float)skip.duration);
+                    exit = true;
                     yield break;
                 }
 
@@ -32,6 +33,7 @@ namespace CaptchaGame
                     fail.Play();
                     yield return new WaitForSeconds((float)fail.duration);
                 }
+                else exit = true;
             }
             
             complete.Play();
