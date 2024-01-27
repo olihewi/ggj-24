@@ -15,15 +15,15 @@ namespace CaptchaGame
         private void Awake()
         {
             Instance = this;
+            foreach (var level in levels)
+            {
+                level.gameObject.SetActive(false);
+            }
         }
 
         private void Start()
         {
             if (levels.Length == 0) Debug.LogError("Levels have not been set up in the CaptchaLevelManager");
-            foreach (var level in levels)
-            {
-                level.gameObject.SetActive(false);
-            }
             StartCoroutine(CaptchaGameRoutine());
         }
 

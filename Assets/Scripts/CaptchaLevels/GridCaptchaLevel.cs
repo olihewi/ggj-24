@@ -6,7 +6,7 @@ using UnityEngine.Playables;
 
 namespace CaptchaGame
 {
-    public class GridCaptchaGame : CaptchaLevelBase
+    public class GridCaptchaLevel : CaptchaLevelBase
     {
         public PlayableDirector appear, complete, skip, fail;
         public GridCaptchaElement[] gridCaptchaElements;
