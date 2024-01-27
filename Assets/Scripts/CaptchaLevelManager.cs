@@ -20,6 +20,10 @@ namespace CaptchaGame
         private void Start()
         {
             if (levels.Length == 0) Debug.LogError("Levels have not been set up in the CaptchaLevelManager");
+            foreach (var level in levels)
+            {
+                level.gameObject.SetActive(false);
+            }
             StartCoroutine(CaptchaGameRoutine());
         }
 
@@ -33,6 +37,7 @@ namespace CaptchaGame
                     Debug.LogError($"Captcha level {i} is null!");
                     continue;
                 }
+                Debug.Log($"Playing captcha level {level.gameObject.name}");
                 level.gameObject.SetActive(true);
                 yield return level.LevelRoutine();
                 level.gameObject.SetActive(false);
