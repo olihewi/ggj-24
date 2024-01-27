@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1781384232151435795
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7904976467077685991}
+    m_Modifications:
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.008757791
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14804469
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.09595798
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587986209210533581, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+      propertyPath: m_Name
+      value: Battleships Board Pin White
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+--- !u!4 &6809421677523932772 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5100136866262735991, guid: 9065b6c81555a1e4b936a50f15652a0b, type: 3}
+  m_PrefabInstance: {fileID: 1781384232151435795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4775427610756460221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7904976467077685991}
+    m_Modifications:
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.008757762
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14804469
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.10639175
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409290733568227317, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+      propertyPath: m_Name
+      value: Battleships Board Pin Red
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+--- !u!4 &1295969367867130866 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6033010793727470927, guid: ec7f2b6b197ba4140801d9398a397cfe, type: 3}
+  m_PrefabInstance: {fileID: 4775427610756460221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7655740359745570060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8839642791775960484, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83c44f216f2a1024fa8b666ee833f347, type: 2}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.172
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12.172
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12.172
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6480007354077826983, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: caf2c829036bf1c44943b632fc24d8c6, type: 2}
+    - target: {fileID: -5988031633357035488, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0254d40fb84bf044b7cfba493f4becd, type: 2}
+    - target: {fileID: -4180379844748619680, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86a4dfba17905f34498a08f11c1b211b, type: 2}
+    - target: {fileID: -3122667142957130674, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83c44f216f2a1024fa8b666ee833f347, type: 2}
+    - target: {fileID: -1021587784842283444, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: caf2c829036bf1c44943b632fc24d8c6, type: 2}
+    - target: {fileID: 919132149155446097, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Name
+      value: Battleships Board Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1245161063938926402, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: caf2c829036bf1c44943b632fc24d8c6, type: 2}
+    - target: {fileID: 2032747714746613872, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83c44f216f2a1024fa8b666ee833f347, type: 2}
+    - target: {fileID: 2093224198547634022, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83c44f216f2a1024fa8b666ee833f347, type: 2}
+    - target: {fileID: 5025058240885715259, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: caf2c829036bf1c44943b632fc24d8c6, type: 2}
+    - target: {fileID: 5365277122663027494, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: caf2c829036bf1c44943b632fc24d8c6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6809421677523932772}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1295969367867130866}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+--- !u!4 &7904976467077685991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 73d711fa9ae4dac4db3d02a35ae6aab7, type: 3}
+  m_PrefabInstance: {fileID: 7655740359745570060}
+  m_PrefabAsset: {fileID: 0}
