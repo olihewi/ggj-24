@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Refresh
+  m_Name: Headphones
   m_Shader: {fileID: -6465566751694194690, guid: b4cba138e60fc01418690cb84b45c2b5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: a2f6819ba91f1b54eacde33e82a2f772, type: 3}
+        m_Texture: {fileID: 2800000, guid: 76b66579d9831f74786a91ef25ed4520, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -41,6 +41,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Alpha: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
