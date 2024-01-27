@@ -1,25 +1,20 @@
 using System;
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 namespace CaptchaGame
 {
     public class GridCaptchaGame : CaptchaLevelBase
     {
-        [Serializable]
-        public struct GridCaptchaElementState
-        {
-            public GridCaptchaElement element;
-            public bool targetValue;
-        }
-        public GridCaptchaElementState[] gridCaptchaElements;
+        public GridCaptchaElement[] gridCaptchaElements;
         public GenericButton submitButton;
         public GenericButton skipButton;
         public override IEnumerator LevelRoutine()
         {
             foreach (var element in gridCaptchaElements)
             {
-                element.element.IsEnabled = true;
+                element.IsEnabled = true;
             }
 
             while (!skipButton.isPressed && !ConditionMet)
@@ -30,7 +25,7 @@ namespace CaptchaGame
             
             foreach (var element in gridCaptchaElements)
             {
-                element.element.IsEnabled = true;
+                element.IsEnabled = true;
             }
         }
 
@@ -40,11 +35,15 @@ namespace CaptchaGame
             {
                 foreach (var element in gridCaptchaElements)
                 {
-                    if (element.element.IsSelected != element.targetValue) return false;
+                    if (!element.IsCorrect) return false;
                 }
-
                 return true;
             }
+        }
+
+        private void OnValidate()
+        {
+            gridCaptchaElements = GetComponentsInChildren<GridCaptchaElement>();
         }
     }
 }

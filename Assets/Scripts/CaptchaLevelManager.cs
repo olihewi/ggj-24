@@ -20,6 +20,7 @@ namespace CaptchaGame
         private void Start()
         {
             if (levels.Length == 0) Debug.LogError("Levels have not been set up in the CaptchaLevelManager");
+            StartCoroutine(CaptchaGameRoutine());
         }
 
         private IEnumerator CaptchaGameRoutine()

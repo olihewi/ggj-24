@@ -5,6 +5,20 @@ namespace CaptchaGame
 {
     public class GridCaptchaElement : MonoBehaviour
     {
+        public enum GridContains
+        {
+            Yes,
+            Maybe,
+            No
+        }
+        public GridContains gridContains = GridContains.No;
+        public bool IsCorrect => gridContains switch
+        {
+            GridContains.Yes => IsSelected,
+            GridContains.Maybe => true,
+            GridContains.No => !IsSelected,
+            _ => throw new ArgumentOutOfRangeException()
+        };
         public Animator animator;
         private static readonly int anim_IsSelected = Animator.StringToHash("Is Selected");
         private static readonly int anim_IsEnabled = Animator.StringToHash("Is Enabled");
