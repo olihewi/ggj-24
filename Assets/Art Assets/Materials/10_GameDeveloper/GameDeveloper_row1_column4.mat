@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GameDeveloper_row1_column1
+  m_Name: GameDeveloper_row1_column4
   m_Shader: {fileID: -6465566751694194690, guid: b4cba138e60fc01418690cb84b45c2b5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -75,7 +75,7 @@ Material:
     - _Overlay:
         m_Texture: {fileID: 8400000, guid: 5022161ae3c68996a8875ad14eb986b2, type: 2}
         m_Scale: {x: 0.25, y: 0.25}
-        m_Offset: {x: 0, y: 0.75}
+        m_Offset: {x: 0.75, y: 0.75}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
