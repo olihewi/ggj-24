@@ -615,7 +615,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 199038695513477081, guid: 8f3ce695fe66db7b29b121a5a10d2a2d, type: 3}
       propertyPath: m_Name
-      value: CAPTCHA GRID
+      value: CaptchaGrid_Crosswaks
+      objectReference: {fileID: 0}
+    - target: {fileID: 199038695513477081, guid: 8f3ce695fe66db7b29b121a5a10d2a2d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8207302416225972809, guid: 8f3ce695fe66db7b29b121a5a10d2a2d, type: 3}
       propertyPath: m_LocalPosition.x

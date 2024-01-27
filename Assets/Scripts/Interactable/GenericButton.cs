@@ -15,7 +15,7 @@ namespace CaptchaGame
         public bool isPressed
         {
             get => _isPressed;
-            private set
+            set
             {
                 if (_isPressed == value) return;
                 _isPressed = value;
@@ -31,7 +31,7 @@ namespace CaptchaGame
         public bool isReleased
         {
             get => _isReleased;
-            private set
+            set
             {
                 if (_isReleased == value) return;
                 _isReleased = value;
@@ -52,6 +52,7 @@ namespace CaptchaGame
 
         private void OnMouseUp()
         {
+            isReleased = true;
             OnReleased?.Invoke();
         }
     }

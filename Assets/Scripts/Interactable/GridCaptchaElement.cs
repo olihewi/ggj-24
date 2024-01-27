@@ -21,21 +21,6 @@ namespace CaptchaGame
         };
         public Animator animator;
         private static readonly int anim_IsSelected = Animator.StringToHash("Is Selected");
-        private static readonly int anim_IsEnabled = Animator.StringToHash("Is Enabled");
-
-        public bool IsEnabled
-        {
-            get => _isEnabled;
-            set
-            {
-                if (_isEnabled == value) return;
-                _isEnabled = value;
-                (value ? OnEnabled : OnDisabled)?.Invoke();
-                animator.SetBool(anim_IsEnabled, value);
-            }
-        }
-        private bool _isEnabled = false;
-        public event Action OnEnabled, OnDisabled;
         public bool IsSelected
         {
             get => _isSelected;
