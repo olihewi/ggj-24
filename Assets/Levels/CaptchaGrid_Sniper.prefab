@@ -102,7 +102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5969555519572571038, guid: 7669753359d1d0842ac456099044149a, type: 3}
       propertyPath: m_text
-      value: enemy snipers
+      value: hostile snipers
       objectReference: {fileID: 0}
     - target: {fileID: 6176914025188135601, guid: 7669753359d1d0842ac456099044149a, type: 3}
       propertyPath: m_Materials.Array.data[0]
