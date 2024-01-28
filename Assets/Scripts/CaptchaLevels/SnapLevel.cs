@@ -85,16 +85,16 @@ namespace CaptchaGame
 			else
 			{
 				Debug.Log("No Snap :( ");
-				StartCoroutine(NoSnap(snapElement));
+				StartCoroutine(NoSnap(snapElement, _LastSelected));
+				_LastSelected = null;
 			}
 		}
 
-		private IEnumerator NoSnap(SnapElement snapElement)
+		private IEnumerator NoSnap(SnapElement snapElement, SnapElement lastSelected)
 		{
 			yield return new WaitForSeconds(1f);
-			_LastSelected.IsSelected = false;
+			lastSelected.IsSelected = false;
 			snapElement.IsSelected = false;
-			_LastSelected = null;
 		}
 	}
 }
