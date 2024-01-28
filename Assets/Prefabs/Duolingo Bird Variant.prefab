@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c04e57e20c2b56e4eb9d13b6c1f30d79, type: 2}
+    - target: {fileID: -5266511452857501064, guid: 2f3f48c23fa1e8f478a312e64b17e557, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c04e57e20c2b56e4eb9d13b6c1f30d79, type: 2}
     - target: {fileID: 919132149155446097, guid: 2f3f48c23fa1e8f478a312e64b17e557, type: 3}
       propertyPath: m_Name
       value: Duolingo Bird Variant
