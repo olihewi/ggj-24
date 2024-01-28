@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using Object = System.Object;
 
 namespace CaptchaGame
 {
@@ -30,7 +29,10 @@ namespace CaptchaGame
 			{
 				if (_IsSelected == value) return;
 				_IsSelected = value;
-				OnSelected?.Invoke(this);
+				if (value)
+				{
+					OnSelected?.Invoke(this);
+				}
 				animator.SetBool(_AnimIsSelected, value);
 			}
 		}

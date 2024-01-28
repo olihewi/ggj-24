@@ -1,30 +1,45 @@
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Playables;
-using Object = System.Object;
+using Utilities;
 
 namespace CaptchaGame
 {
 	public class SnapLevel : CaptchaLevelBase
 	{
 		public PlayableDirector appear, complete, skip, fail;
-		public SnapElement[] snapElements;
+		public List<SnapElement> snapElements = new();
 		public GenericButton submitButton;
 		public GenericButton skipButton;
-		[SerializeField] private SnapElement _LastSelected;
+		private SnapElement _LastSelected;
 
 		public bool ConditionMet
 		{
-			get
+			get { return snapElements.All(element => element.IsMatched); }
+		}
+
+		private void Start()
+		{
+			snapElements = GetComponentsInChildren<SnapElement>().ToList();
+			List<Vector3> position = new List<Vector3>(snapElements.Count);
+			foreach (SnapElement element in snapElements)
 			{
-				return snapElements.All(element => element.IsMatched);
+				position.Add(element.transform.position);
+				element.OnSelected += ElementOnOnSelected;
+			}
+
+			position.Shuffle();
+			for (int index = 0; index < snapElements.Count; index++)
+			{
+				snapElements[index].transform.position = position[index];
 			}
 		}
 
 		private void OnValidate()
 		{
-			snapElements = GetComponentsInChildren<SnapElement>();
+			snapElements = GetComponentsInChildren<SnapElement>().ToList();
 		}
 
 		public override IEnumerator LevelRoutine()
@@ -41,38 +56,45 @@ namespace CaptchaGame
 					yield break;
 				}
 
-				if (!ConditionMet)
-				{
-					submitButton.isReleased = false;
-					fail.Play();
-					yield return new WaitForSeconds((float) fail.duration);
-				}
+				if (ConditionMet) continue;
+
+				submitButton.isReleased = false;
+				fail.Play();
+				yield return new WaitForSeconds((float) fail.duration);
 			}
 
 			complete.Play();
 			yield return new WaitForSeconds((float) complete.duration);
 		}
 
-		private void Start()
-		{
-			snapElements = GetComponentsInChildren<SnapElement>();
-
-			foreach (SnapElement element in snapElements)
-			{
-				element.OnSelected += ElementOnOnSelected;
-			}
-		}
-
 		private void ElementOnOnSelected(SnapElement snapElement)
 		{
-			if (_LastSelected.snapCombo == snapElement.snapCombo)
-			{
-				Debug.Log("SNAP!");
-			}
-			else if (_LastSelected == null)
+			if (_LastSelected == null)
 			{
 				_LastSelected = snapElement;
 			}
+			else if (_LastSelected.snapCombo == snapElement.snapCombo)
+			{
+				Debug.Log("SNAP! :) ");
+
+				snapElement.IsMatched = true;
+				_LastSelected.IsMatched = true;
+
+				_LastSelected = null;
+			}
+			else
+			{
+				Debug.Log("No Snap :( ");
+				StartCoroutine(NoSnap(snapElement));
+			}
+		}
+
+		private IEnumerator NoSnap(SnapElement snapElement)
+		{
+			yield return new WaitForSeconds(1f);
+			_LastSelected.IsSelected = false;
+			snapElement.IsSelected = false;
+			_LastSelected = null;
 		}
 	}
 }
