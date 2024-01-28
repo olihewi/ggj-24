@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: gridContains
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7235416499371520966, guid: 7669753359d1d0842ac456099044149a, type: 3}
+      propertyPath: m_text
+      value: Select all squares which
+      objectReference: {fileID: 0}
     - target: {fileID: 7258997871727829506, guid: 7669753359d1d0842ac456099044149a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.45
