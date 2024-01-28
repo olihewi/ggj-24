@@ -421,6 +421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 898944207}
   - component: {fileID: 898944208}
+  - component: {fileID: 898944209}
   m_Layer: 0
   m_Name: Freebird.webm
   m_TagString: Untagged
@@ -471,14 +472,35 @@ VideoPlayer:
   - 1
   m_Url: 
   m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
+  m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!95 &898944209
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898944203}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &914617899
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,6 +822,7 @@ GameObject:
   - component: {fileID: 1111004113}
   - component: {fileID: 1111004114}
   - component: {fileID: 1111004115}
+  - component: {fileID: 1111004116}
   m_Layer: 0
   m_Name: Guitar Hero
   m_TagString: Untagged
@@ -838,6 +861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playableDirector: {fileID: 1111004115}
+  videoPlayer: {fileID: 898944208}
   fretboard: {fileID: 914617900}
   fretboardTime: 2
   fretboardLength: 4.5
@@ -872,15 +896,40 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 0460c05799b389864b681268b480bcbc, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 6675748835166354004, guid: 0460c05799b389864b681268b480bcbc, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 260741290928540284, guid: 0460c05799b389864b681268b480bcbc, type: 2}
+    value: {fileID: 1111004116}
+  - key: {fileID: 5726353677956375202, guid: 0460c05799b389864b681268b480bcbc, type: 2}
+    value: {fileID: 898944209}
   m_ExposedReferences:
     m_References: []
+--- !u!95 &1111004116
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111004112}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1134416220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,7 +1254,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1f39fd4b31baa1243a6440509bac5956, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

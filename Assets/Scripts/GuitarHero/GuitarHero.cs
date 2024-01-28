@@ -1,8 +1,10 @@
 using System;
+using System.Collections;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
+using UnityEngine.Video;
 using Random = UnityEngine.Random;
 
 namespace GuitarHero
@@ -10,6 +12,7 @@ namespace GuitarHero
     public class GuitarHero : MonoBehaviour
     {
         public PlayableDirector playableDirector;
+        public VideoPlayer videoPlayer;
         
         public Transform fretboard;
         public float fretboardTime = 2.0F;
@@ -25,12 +28,22 @@ namespace GuitarHero
         
 
         private float time = 0.0F;
-
+        
         private void Start()
         {
             InitializeNotes();
+            StartCoroutine(StartRoutine());
+        }
+
+        private IEnumerator StartRoutine()
+        {
+            videoPlayer.Prepare();
+            yield return new WaitUntil(() => videoPlayer.isPrepared);
+            videoPlayer.Play();
+            yield return new WaitUntil(() => videoPlayer.isPlaying);
             playableDirector.Play();
         }
+        
         private void InitializeNotes()
         {
             if (playableDirector == null || playableDirector.playableAsset is not TimelineAsset timeline) return;
@@ -50,9 +63,25 @@ namespace GuitarHero
             UpdateTime();
         }
 
-        public bool HasStrummed => Mathf.Abs(Input.GetAxisRaw("Strum")) > 0.01F || Input.GetKeyDown(KeyCode.Alpha1) ||
-                                   Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3) ||
-                                   Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Alpha5);
+        private bool _strummedLastFrame = false;
+        private int _lastFrame = -1;
+        private bool _lastResult = false;
+
+        public bool HasStrummed
+        {
+            get
+            {
+                if (Time.frameCount == _lastFrame) return _lastResult;
+                bool held = Mathf.Abs(Input.GetAxisRaw("Strum")) > 0.01F || Input.GetKeyDown(KeyCode.Alpha1) ||
+                            Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3) ||
+                            Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Alpha5);
+                bool strummed = held && !_strummedLastFrame;
+                _strummedLastFrame = held;
+                _lastFrame = Time.frameCount;
+                _lastResult = strummed;
+                return strummed;
+            }
+        }
 
         public GuitarHeroNoteObject[] shouldHit = new GuitarHeroNoteObject[5];
         private void UpdateTime()
@@ -81,8 +110,8 @@ namespace GuitarHero
                     else if (diff < -noteThreshold)
                     {
                         note.Missed();
-                        failSound.pitch = Random.Range(0.9F, 1.1F);
-                        failSound.PlayOneShot(failSound.clip);
+                        //failSound.pitch = Random.Range(0.9F, 1.1F);
+                        //failSound.PlayOneShot(failSound.clip);
                     }
                 }
             }
