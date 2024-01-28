@@ -408,6 +408,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notePrefab: {fileID: 8684920966892504250, guid: ad4c4519f5cebb84788a358c14d75796, type: 3}
+  tapNotePrefab: {fileID: 2409277529750321720, guid: 5080d19bffe86814b9f8663c98af1b10, type: 3}
+  slideNotePrefab: {fileID: 2409277529750321720, guid: 5080d19bffe86814b9f8663c98af1b10, type: 3}
   notes: []
 --- !u!1 &898944203
 GameObject:
@@ -542,68 +544,6 @@ Transform:
   - {fileID: 1090358201}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &969627600
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1686101577}
-    m_Modifications:
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071079
-      objectReference: {fileID: 0}
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.70710576
-      objectReference: {fileID: 0}
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549131380986140586, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-      propertyPath: m_Name
-      value: RhythmBlamNote_Green Variant
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
---- !u!4 &969627601 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5064765329995369744, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
-  m_PrefabInstance: {fileID: 969627600}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1021116386 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4826392583038097100, guid: 5cd15367dffa1ff4c9612df5d1ec144e, type: 3}
@@ -986,6 +926,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notePrefab: {fileID: 5020723453488717965, guid: b9c2746cc64906f49bef2bcfbaef3025, type: 3}
+  tapNotePrefab: {fileID: 133638553364487706, guid: 0368d698af8beb341a23bde1b4113f5b, type: 3}
+  slideNotePrefab: {fileID: 133638553364487706, guid: 0368d698af8beb341a23bde1b4113f5b, type: 3}
   notes: []
 --- !u!1 &1231828518 stripped
 GameObject:
@@ -1074,6 +1016,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notePrefab: {fileID: 3247938381413053585, guid: 6a6f09ec6d8871042bf7c63ba518a6ca, type: 3}
+  tapNotePrefab: {fileID: 7936755836654510972, guid: b1fd655d8e570834c939f63a30259a26, type: 3}
+  slideNotePrefab: {fileID: 7936755836654510972, guid: b1fd655d8e570834c939f63a30259a26, type: 3}
   notes: []
 --- !u!1 &1255106566 stripped
 GameObject:
@@ -1198,6 +1142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notePrefab: {fileID: 3751267282662182959, guid: 7d41863eb1cb0b346b1f793f3fbb8956, type: 3}
+  tapNotePrefab: {fileID: 5187419393329812753, guid: 7a40a7cb634994249bdd7cfca1feab35, type: 3}
+  slideNotePrefab: {fileID: 5187419393329812753, guid: 7a40a7cb634994249bdd7cfca1feab35, type: 3}
   notes: []
 --- !u!1 &1309010761
 GameObject:
@@ -1224,7 +1170,7 @@ Transform:
   m_GameObject: {fileID: 1309010761}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0.15}
+  m_LocalPosition: {x: 0, y: 0.13, z: 0.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1455,8 +1401,7 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 969627601}
+  m_Children: []
   m_Father: {fileID: 1256418321}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1686101578
@@ -1472,6 +1417,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notePrefab: {fileID: 3404124551429230300, guid: 485f09ac4fb7edd459144281eb38e55e, type: 3}
+  tapNotePrefab: {fileID: 7233144955637096340, guid: b3a2d425acb6c5248a535c48df409c34, type: 3}
+  slideNotePrefab: {fileID: 7233144955637096340, guid: b3a2d425acb6c5248a535c48df409c34, type: 3}
   notes: []
 --- !u!1 &1727579775 stripped
 GameObject:
