@@ -10,7 +10,6 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.UI;
 using Utilities;
-using Object = System.Object;
 using Random = UnityEngine.Random;
 
 public class WordleLevel : CaptchaLevelBase
@@ -35,9 +34,9 @@ public class WordleLevel : CaptchaLevelBase
 	[SerializeField] private GameObject[] _WordleRow4;
 	[SerializeField] private GameObject[] _WordleRow5;
 	[SerializeField] private GameObject[] _WordleRow6;
+	[SerializeField] private string _TextInput = "";
 
 	private readonly GameObject[][] _WordleRows = new GameObject[6][];
-	[SerializeField] private string _TextInput = "";
 	private Int32 _Attempts;
 	private List<String> _SplitStrings;
 
