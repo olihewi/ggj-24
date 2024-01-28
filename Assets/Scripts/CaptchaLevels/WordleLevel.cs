@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using CaptchaGame;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.UI;
@@ -35,6 +36,7 @@ public class WordleLevel : CaptchaLevelBase
 	[SerializeField] private GameObject[] _WordleRow5;
 	[SerializeField] private GameObject[] _WordleRow6;
 	[SerializeField] private string _TextInput = "";
+	[SerializeField] private TextAsset _Dictonary;
 
 	private readonly GameObject[][] _WordleRows = new GameObject[6][];
 	private Int32 _Attempts;
@@ -168,20 +170,7 @@ public class WordleLevel : CaptchaLevelBase
 
 	private void ReadString()
 	{
-		string path = "";
-#if UNITY_STANDALONE
-		path = Application.persistentDataPath + "/WordleWords.txt";
-#endif
-#if UNITY_EDITOR
-		path = "Assets/Resources/WordleWords.txt";
-#endif
-		//Read the text from directly from the test.txt file
-		StreamReader reader = new StreamReader(path);
-		string words = reader.ReadToEnd();
-		Debug.Log(words);
-		reader.Close();
-
-		_SplitStrings = words.Split("\n").ToList();
+		_SplitStrings = _Dictonary.text.Split("\n").ToList();
 
 		_SplitStrings.Shuffle();
 
