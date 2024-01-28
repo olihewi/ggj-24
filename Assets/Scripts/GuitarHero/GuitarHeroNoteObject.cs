@@ -11,11 +11,13 @@ namespace GuitarHero
         public void Hit()
         {
             active = false;
+            gameObject.SetActive(false);
         }
 
         public void Missed()
         {
             active = false;
+            gameObject.SetActive(false);
         }
     }
 }
