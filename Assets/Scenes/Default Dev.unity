@@ -800,22 +800,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2887900225598198836, guid: 8764e0c3a54a84a86af7b2dfb6873198, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 585109468805122479, guid: 8764e0c3a54a84a86af7b2dfb6873198, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 2386871465750865526, guid: 8764e0c3a54a84a86af7b2dfb6873198, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 757904693609066473, guid: 8764e0c3a54a84a86af7b2dfb6873198, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1726386149855246558, guid: 8764e0c3a54a84a86af7b2dfb6873198, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8764e0c3a54a84a86af7b2dfb6873198, type: 3}
 --- !u!1001 &1038365595
 PrefabInstance:
@@ -2290,6 +2275,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5281568257362134876, guid: 2dced026571db9f47900f8eb9d508123, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281568257362134876, guid: 2dced026571db9f47900f8eb9d508123, type: 3}
       propertyPath: m_SceneBindings.Array.data[36].key
       value: 
       objectReference: {fileID: 0}
@@ -2353,10 +2342,22 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[51].key
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5281568257362134876, guid: 2dced026571db9f47900f8eb9d508123, type: 3}
+      propertyPath: m_SceneBindings.Array.data[57].key
+      value: 
+      objectReference: {fileID: 8395943429547656179, guid: 4f002fea94941a1468f2c2e77b2a9dd3, type: 2}
     - target: {fileID: 5644668363327584497, guid: 2dced026571db9f47900f8eb9d508123, type: 3}
       propertyPath: m_Name
       value: CaptchaGrid_Minesweeper
       objectReference: {fileID: 0}
+    - target: {fileID: 8829016253315816583, guid: 2dced026571db9f47900f8eb9d508123, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829016253315816583, guid: 2dced026571db9f47900f8eb9d508123, type: 3}
+      propertyPath: m_SceneBindings.Array.data[3].key
+      value: 
+      objectReference: {fileID: 8917062049012614904, guid: 37a9d0042cfe77e4c97b890d9ac1202c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
