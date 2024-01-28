@@ -37,7 +37,7 @@ public class WordleLevel : CaptchaLevelBase
 	[SerializeField] private GameObject[] _WordleRow6;
 
 	private readonly GameObject[][] _WordleRows = new GameObject[6][];
-	private string _TextInput = "";
+	[SerializeField] private string _TextInput = "";
 	private Int32 _Attempts;
 	private List<String> _SplitStrings;
 
@@ -92,7 +92,8 @@ public class WordleLevel : CaptchaLevelBase
 					{
 						if (char.IsLetter(str[0]) && _TextInput.Length != 5)
 						{
-							_WordleRows[_Attempts][_TextInput.Length].GetComponent<TMP_InputField>().text += str;
+							String upper = str.ToUpperInvariant();
+							_WordleRows[_Attempts][_TextInput.Length].GetComponent<TMP_InputField>().text += upper;
 							_TextInput += str;
 						}
 						else if (str[0] == 8 && _TextInput.Length > 0)
@@ -149,11 +150,11 @@ public class WordleLevel : CaptchaLevelBase
 		{
 			TMP_InputField inputField = _WordleRows[_Attempts][index].GetComponent<TMP_InputField>();
 			Image image = _WordleRows[_Attempts][index].GetComponent<Image>();
-			if (inputField.text == charArray[index].ToString())
+			if (inputField.text.ToLowerInvariant() == charArray[index].ToString())
 			{
 				image.color = new Color(0.3254901961f, 0.5529411765f, 0.3058823529f);
 			}
-			else if (_SelectedWord.Contains(inputField.text))
+			else if (_SelectedWord.Contains(inputField.text.ToLowerInvariant()))
 			{
 				image.color = new Color(0.7098039216f, 0.6235294118f, 0.2313725490f);
 			}
