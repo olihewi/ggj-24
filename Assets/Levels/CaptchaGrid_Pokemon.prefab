@@ -222,7 +222,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2326915063767891665, guid: 127ce4f7db30aca4093d16f322857767, type: 3}
       propertyPath: m_Name
-      value: BACKGROUND_CUBE_01
+      value: BACKGROUND_CUBE_Pokemon
       objectReference: {fileID: 0}
     - target: {fileID: 3108224184455776398, guid: 127ce4f7db30aca4093d16f322857767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -294,7 +294,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 199038695513477081, guid: 096dd861c06eefeaf84fe107639509ab, type: 3}
       propertyPath: m_Name
-      value: CaptchaGrid_Pokemon Variant
+      value: CaptchaGrid_Pokemon
       objectReference: {fileID: 0}
     - target: {fileID: 199038695513477081, guid: 096dd861c06eefeaf84fe107639509ab, type: 3}
       propertyPath: m_IsActive
@@ -428,9 +428,17 @@ PrefabInstance:
       propertyPath: m_text
       value: pokemon?
       objectReference: {fileID: 0}
+    - target: {fileID: 8417802827542527806, guid: 096dd861c06eefeaf84fe107639509ab, type: 3}
+      propertyPath: gridContains
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8836131427449257311, guid: 096dd861c06eefeaf84fe107639509ab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.736
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896480708649434348, guid: 096dd861c06eefeaf84fe107639509ab, type: 3}
+      propertyPath: gridContains
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9091863818568028358, guid: 096dd861c06eefeaf84fe107639509ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
