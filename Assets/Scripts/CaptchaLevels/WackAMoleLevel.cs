@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Playables;
-using Utilities;
 
 namespace CaptchaGame
 {
@@ -17,11 +16,6 @@ namespace CaptchaGame
 
 		public bool ConditionMet => _Wacked == 10;
 
-		private void OnValidate()
-		{
-			wackAElements = GetComponentsInChildren<WackAElement>().ToList();
-		}
-
 		private void Start()
 		{
 			wackAElements = GetComponentsInChildren<WackAElement>().ToList();
@@ -29,6 +23,11 @@ namespace CaptchaGame
 			{
 				element.OnSelected += ElementOnOnSelected;
 			}
+		}
+
+		private void OnValidate()
+		{
+			wackAElements = GetComponentsInChildren<WackAElement>().ToList();
 		}
 
 		public override IEnumerator LevelRoutine()
@@ -40,7 +39,7 @@ namespace CaptchaGame
 				if (skipButton.isReleased)
 				{
 					skip.Play();
-					yield return new WaitForSeconds((float)skip.duration);
+					yield return new WaitForSeconds((float) skip.duration);
 					yield break;
 				}
 
@@ -50,7 +49,7 @@ namespace CaptchaGame
 			}
 
 			complete.Play();
-			yield return new WaitForSeconds((float)complete.duration);
+			yield return new WaitForSeconds((float) complete.duration);
 		}
 
 		private void ElementOnOnSelected(WackAElement wackAElement)
@@ -59,6 +58,8 @@ namespace CaptchaGame
 			{
 				_Wacked++;
 			}
+
+			wackAElement.PlayAudio();
 			StartCoroutine(wackAElement.Reset());
 		}
 	}
