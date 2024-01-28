@@ -54,7 +54,7 @@ namespace CaptchaGame
 		{
 			if (_Timer <= 0.0f)
 			{
-				_Timer = Random.Range(5, 20);
+				_Timer = Random.Range(2, 10);
 				StartCoroutine(Mole());
 			}
 			else
