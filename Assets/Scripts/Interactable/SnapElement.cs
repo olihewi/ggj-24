@@ -33,6 +33,7 @@ namespace CaptchaGame
 				{
 					OnSelected?.Invoke(this);
 				}
+
 				animator.SetBool(_AnimIsSelected, value);
 			}
 		}
