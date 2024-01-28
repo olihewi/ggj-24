@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-9183035458262228323
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27,7 +27,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-9166213315871381796
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 3.5833333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &-8865906168308037535
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55,7 +55,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 17.083333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &-8772125765436501883
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 10.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-8759350961710818767
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-8684764560940816160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 8.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-8548616404640471606
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.333333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-8429228632035683437
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 16.583333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &-8261443980671455360
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-8188680043794310244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 9.583333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &-7875332817346706768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 8.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-7869888124088347705
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-7858266292211390629
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 17.083333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &-7821220067084120214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 11.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-7811051572973030461
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-7746727147659593175
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 5.833333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-7745503210399211263
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 2643212727637408865}
+  m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 8.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-7444178037924064217
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-7390909127309865400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 11.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-7181025320938239890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 3.0833333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &-7039275374342252143
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-6740399304963605393
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-6471706662819824941
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-6217789208537919727
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 15.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-5899570037025063885
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-5189068989875293216
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -432,7 +432,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 2.8333333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &-5014176081665008453
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 13.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-4981198283813563141
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -460,7 +460,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 8.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-4939181871856772532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.333333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-4709329863795121160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 15.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-4564421828143407899
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -502,7 +502,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 7.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-4513684415508561976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -516,7 +516,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 16.083333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &-4509913757870638277
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 7.833333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-4417369808544574914
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 17.333333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &-4387047167879343422
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -558,7 +558,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 13.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-4376293804767006747
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 13.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-3975904572181556633
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.333333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-3674075272507851788
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 15.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-3568758009963489956
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -614,7 +614,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 3.5833333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &-3374462837242226411
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-3053187789668869734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -642,7 +642,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 16.583333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &-3041283631032899940
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 5.333333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-2718486551163450089
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.833333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-2623477313247359274
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -684,7 +684,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 15.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-2581415206656227569
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 7.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-2455374379835643817
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -712,7 +712,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-2402903405817791361
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 9.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-2285789161736119061
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-2085752632526569554
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -754,7 +754,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 10.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-2079417025919249096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -768,7 +768,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 17.583333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &-2077543877922556331
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-2024948588500454028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 13.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-1915265540433405311
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 11.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-1829340939989684688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -824,7 +824,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-1800156735126068675
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
-    volume: 1
+    volume: 0
 --- !u!114 &-1696738775859380016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -855,7 +855,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 7.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-1681070675497638602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -869,7 +869,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 3.0833333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &-1568942594084831711
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -883,7 +883,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-1553521998732725822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 15.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-1520126800097168667
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -911,7 +911,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 9.583333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &-1490735134457951613
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -925,7 +925,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 10.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-1084773549394569804
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -939,7 +939,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 11.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-1005366249194885386
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -953,7 +953,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-861047640505374808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -967,7 +967,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 10.083333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &-572711183117557032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -981,7 +981,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 3.3333333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &-546688580984507239
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -995,7 +995,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 8.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-396887580953025456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1009,7 +1009,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 8.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-255779770998450096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1023,7 +1023,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 9.083333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &-211994108772263812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1037,7 +1037,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 7.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &-151318544252984177
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &-122375847133551199
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1065,7 +1065,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1080,7 +1080,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
-  - {fileID: 2643212727637408865}
+  - {fileID: -7745503210399211263}
+  - {fileID: 5967232024816675346}
+  - {fileID: 4217023663211906255}
+  - {fileID: 8944114424380572605}
+  - {fileID: 6660793259424275132}
   - {fileID: 6675748835166354004}
   m_FixedDuration: 0
   m_EditorSettings:
@@ -1101,7 +1105,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 7.333333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &305459513300657541
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1115,7 +1119,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 16.833333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &361289952892755189
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1129,7 +1133,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 11.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &586856607813199978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1143,7 +1147,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 9.333333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &615927072235331533
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1157,7 +1161,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 9.083333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &622634078569011718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1171,7 +1175,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 16.083333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &646033526195744878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1185,7 +1189,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 9.083333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &731034343833621596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1199,7 +1203,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &737418920197541779
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1213,7 +1217,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 17.083333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &905094947364357394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1227,7 +1231,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &1224035370310405788
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1241,7 +1245,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 11.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &1253615377102183837
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1255,7 +1259,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &1359760822300058633
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1269,7 +1273,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 10.083333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &1448052036361940657
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1283,7 +1287,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &1509830647619700136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1297,7 +1301,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 16.583333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &1801951813407052721
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1311,7 +1315,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.333333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &2011912006129488434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1325,7 +1329,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.333333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &2079028442749916075
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1339,7 +1343,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 4.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &2233275190065725183
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1353,7 +1357,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 13.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &2476400395303840064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1367,35 +1371,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 5.583333333333333
-  type: 0
---- !u!114 &2643212727637408865
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
-  m_Name: Notes
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children:
-  - {fileID: -7745503210399211263}
-  - {fileID: 5967232024816675346}
-  - {fileID: 4217023663211906255}
-  - {fileID: 8944114424380572605}
-  - {fileID: 6660793259424275132}
-  m_Clips: []
-  m_Markers:
-    m_Objects: []
+  noteType: 0
 --- !u!114 &2654116141371258087
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1409,7 +1385,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 7.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &2747725025702892840
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1423,7 +1399,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &2821483981719531246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1437,7 +1413,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.333333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &2830422370137840227
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1451,7 +1427,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 11.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &3037289283796438537
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1465,7 +1441,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 10.083333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &3511000708504367150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1479,7 +1455,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 17.583333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &3615462598232558842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1493,7 +1469,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 10.333333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &3641304246578805609
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1507,7 +1483,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 13.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &3668126078826650528
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1521,7 +1497,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 5.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &4024074977720481845
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1535,7 +1511,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 15.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &4103858984101108106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1549,7 +1525,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 8.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &4217023663211906255
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1568,7 +1544,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 2643212727637408865}
+  m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -1605,7 +1581,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 16.333333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &4351483997438212192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1619,7 +1595,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 8.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &4557078174285163879
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1633,7 +1609,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &4632611452878522524
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1647,7 +1623,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 17.583333333333332
-  type: 0
+  noteType: 0
 --- !u!114 &4750288367157127237
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1661,7 +1637,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 15.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &4838116074004859414
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1675,7 +1651,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 5.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &4886368200023010867
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1689,7 +1665,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 3.0833333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &5866466572228924593
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1703,7 +1679,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 15.333333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &5904245682476593728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1717,7 +1693,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.833333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &5967232024816675346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1736,7 +1712,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 2643212727637408865}
+  m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -1796,7 +1772,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 6.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &6091590923186656315
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1810,7 +1786,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 11.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &6376812676066420009
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1824,7 +1800,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 3.8333333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &6552910684145374314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1838,7 +1814,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 5.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &6660793259424275132
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1857,7 +1833,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 2643212727637408865}
+  m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -1987,7 +1963,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 9.583333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &6772527002744685912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2001,7 +1977,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 5.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &7011215799470273874
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2015,7 +1991,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 3.5833333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &7500668745155499882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2029,7 +2005,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &7535458007109078066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2043,7 +2019,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 7.583333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &7583883760081668261
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2057,7 +2033,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &7662813713098996823
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2071,7 +2047,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 14.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &7753465175708056593
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2085,7 +2061,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 2.8333333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &7848180449564585944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2099,7 +2075,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 5.083333333333333
-  type: 0
+  noteType: 0
 --- !u!114 &7853641188780527863
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2113,7 +2089,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 10.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &7874876466593438938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2127,7 +2103,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 13.583333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &8068200632234850378
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2141,7 +2117,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 2.8333333333333335
-  type: 0
+  noteType: 0
 --- !u!114 &8596011735696699334
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2155,7 +2131,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 13.833333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &8897437213413205196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2169,7 +2145,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 12.083333333333334
-  type: 0
+  noteType: 0
 --- !u!114 &8898423515651742552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2183,7 +2159,7 @@ MonoBehaviour:
   m_Name: Guitar Hero Note
   m_EditorClassIdentifier: 
   m_Time: 16.083333333333336
-  type: 0
+  noteType: 0
 --- !u!114 &8944114424380572605
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2202,7 +2178,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 2643212727637408865}
+  m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips: []
   m_Markers:
