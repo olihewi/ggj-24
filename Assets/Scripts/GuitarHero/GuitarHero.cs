@@ -3,6 +3,7 @@ using System.Collections;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 using UnityEngine.Timeline;
 using UnityEngine.Video;
 using Random = UnityEngine.Random;
@@ -42,6 +43,8 @@ namespace GuitarHero
             videoPlayer.Play();
             yield return new WaitUntil(() => videoPlayer.isPlaying);
             playableDirector.Play();
+            yield return new WaitForSeconds((float)playableDirector.duration);
+            SceneManager.LoadScene(0);
         }
         
         private void InitializeNotes()

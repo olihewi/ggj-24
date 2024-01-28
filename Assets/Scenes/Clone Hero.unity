@@ -907,6 +907,8 @@ PlayableDirector:
     value: {fileID: 1111004116}
   - key: {fileID: 5726353677956375202, guid: 0460c05799b389864b681268b480bcbc, type: 2}
     value: {fileID: 898944209}
+  - key: {fileID: -1122321104113627130, guid: 0460c05799b389864b681268b480bcbc, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!95 &1111004116
@@ -1255,7 +1257,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1f39fd4b31baa1243a6440509bac5956, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
