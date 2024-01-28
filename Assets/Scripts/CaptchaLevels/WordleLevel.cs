@@ -25,8 +25,6 @@ public class WordleLevel : CaptchaLevelBase
 	public GenericButton submitButton;
 	public GenericButton skipButton;
 
-	public TMP_InputField textInput;
-
 	public InputAcceptMode mode;
 	public bool caseDependant;
 	[SerializeField] private String _SelectedWord;
@@ -38,15 +36,16 @@ public class WordleLevel : CaptchaLevelBase
 	[SerializeField] private GameObject[] _WordleRow5;
 	[SerializeField] private GameObject[] _WordleRow6;
 
-	private readonly GameObject[][] WordleRows = new GameObject[6][];
-	private string _TypedWord;
+	private readonly GameObject[][] _WordleRows = new GameObject[6][];
+	private string _TextInput = "";
 	private Int32 _Attempts;
+	private List<String> _SplitStrings;
 
 	public bool ConditionMet
 	{
 		get
 		{
-			String str = textInput.text;
+			String str = _TextInput;
 			if (!caseDependant)
 			{
 				str = str.ToLowerInvariant();
@@ -63,24 +62,19 @@ public class WordleLevel : CaptchaLevelBase
 		}
 	}
 
-	private void Start()
+	private void Awake()
 	{
 		ReadString();
-		WordleRows[0] = _WordleRow1;
-		WordleRows[1] = _WordleRow2;
-		WordleRows[2] = _WordleRow3;
-		WordleRows[3] = _WordleRow4;
-		WordleRows[4] = _WordleRow5;
-		WordleRows[5] = _WordleRow6;
+	}
 
-		foreach (GameObject[] wordleRow in WordleRows)
-		{
-			foreach (GameObject square in wordleRow)
-			{
-				TMP_InputField inputField = square.GetComponentInChildren<TMP_InputField>();
-				inputField.text = "";
-			}
-		}
+	private void Start()
+	{
+		_WordleRows[0] = _WordleRow1;
+		_WordleRows[1] = _WordleRow2;
+		_WordleRows[2] = _WordleRow3;
+		_WordleRows[3] = _WordleRow4;
+		_WordleRows[4] = _WordleRow5;
+		_WordleRows[5] = _WordleRow6;
 	}
 
 	public override IEnumerator LevelRoutine()
@@ -92,17 +86,27 @@ public class WordleLevel : CaptchaLevelBase
 			while (!submitButton.isReleased && !skipButton.isReleased && !Input.GetKeyDown(KeyCode.Return))
 			{
 				String str = Input.inputString;
-				if (str.Length > 0 && _TypedWord.Length <= 5)
+				if (_Attempts < 6)
 				{
-					if (char.IsLetter(str[0]))
+					if (str.Length > 0 && _TextInput.Length <= 5)
 					{
-						WordleRows[_Attempts][_TypedWord.Length].GetComponentInChildren<TMP_InputField>().text += str;
-						_TypedWord += str;
+						if (char.IsLetter(str[0]) && _TextInput.Length != 5)
+						{
+							_WordleRows[_Attempts][_TextInput.Length].GetComponent<TMP_InputField>().text += str;
+							_TextInput += str;
+						}
+						else if (str[0] == 8 && _TextInput.Length > 0)
+						{
+							_TextInput = _TextInput[..^1];
+							_WordleRows[_Attempts][_TextInput.Length].GetComponent<TMP_InputField>().text = "";
+						}
 					}
-					else if (str[0] == 8 && textInput.text.Length > 0)
-					{
-						textInput.text = textInput.text[..^1];
-					}
+				}
+				else
+				{
+					//TODO: ADD WORDLE FAIL SCREEN
+					fail.Play();
+					yield break;
 				}
 
 				yield return null;
@@ -115,9 +119,19 @@ public class WordleLevel : CaptchaLevelBase
 				yield break;
 			}
 
-			if (!ConditionMet && _TypedWord.Length == 5)
+			if (!_SplitStrings.Contains(_TextInput))
+			{
+				yield return new WaitForEndOfFrame();
+				submitButton.isReleased = false;
+				continue;
+			}
+
+			yield return LetterChecker();
+
+			if (!ConditionMet && _TextInput.Length == 5)
 			{
 				_Attempts++;
+				_TextInput = "";
 				submitButton.isReleased = false;
 				fail.Play();
 				yield return new WaitForSeconds((float) fail.duration);
@@ -126,6 +140,30 @@ public class WordleLevel : CaptchaLevelBase
 
 		complete.Play();
 		yield return new WaitForSeconds((float) complete.duration);
+	}
+
+	private IEnumerator LetterChecker()
+	{
+		Char[] charArray = _SelectedWord.ToCharArray();
+		for (int index = 0; index < charArray.Length; index++)
+		{
+			TMP_InputField inputField = _WordleRows[_Attempts][index].GetComponent<TMP_InputField>();
+			Image image = _WordleRows[_Attempts][index].GetComponent<Image>();
+			if (inputField.text == charArray[index].ToString())
+			{
+				image.color = new Color(0.3254901961f, 0.5529411765f, 0.3058823529f);
+			}
+			else if (_SelectedWord.Contains(inputField.text))
+			{
+				image.color = new Color(0.7098039216f, 0.6235294118f, 0.2313725490f);
+			}
+			else
+			{
+				image.color = new Color(0.2274509804f, 0.2274509804f, 0.2352941176f);
+			}
+
+			yield return new WaitForSeconds(0.1f);
+		}
 	}
 
 	private void ReadString()
@@ -143,9 +181,9 @@ public class WordleLevel : CaptchaLevelBase
 		Debug.Log(words);
 		reader.Close();
 
-		List<String> splitStrings = words.Split("\n").ToList();
+		_SplitStrings = words.Split("\n").ToList();
 
-		splitStrings.Shuffle();
+		_SplitStrings.Shuffle();
 
 		DateTime utcNowDate = DateTime.UtcNow.Date;
 		String time = utcNowDate.ToString(CultureInfo.CurrentCulture);
@@ -153,8 +191,8 @@ public class WordleLevel : CaptchaLevelBase
 		int seed = intArray.Sum();
 
 		Random.InitState(seed);
-		Int32 range = Random.Range(0, splitStrings.Count);
+		Int32 range = Random.Range(0, _SplitStrings.Count);
 
-		_SelectedWord = splitStrings[range];
+		_SelectedWord = _SplitStrings[range];
 	}
 }
