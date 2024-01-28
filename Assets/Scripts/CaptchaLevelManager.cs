@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace CaptchaGame
 {
@@ -11,6 +12,7 @@ namespace CaptchaGame
         public CaptchaLevelBase[] levels;
         public int currentLevelIndex = 0;
         public CaptchaLevelBase CurrentLevel => levels[currentLevelIndex];
+        public int nextScene = 2;
 
         private void Awake()
         {
@@ -42,6 +44,7 @@ namespace CaptchaGame
                 yield return level.LevelRoutine();
                 level.gameObject.SetActive(false);
             }
+            SceneManager.LoadScene(nextScene);
         }
         
     }

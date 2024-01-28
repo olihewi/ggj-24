@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Default Start.unity
+    guid: 1339fee254aab944091a98c36b27b7e8
+  - enabled: 1
     path: Assets/Scenes/Default Dev.unity
     guid: 7975a507d0d65ce51ad4dd6fd9a78f8b
+  - enabled: 1
+    path: Assets/Scenes/Clone Hero.unity
+    guid: 34e2df5b74d5cd3b386c1915e8f82871
   m_configObjects: {}
